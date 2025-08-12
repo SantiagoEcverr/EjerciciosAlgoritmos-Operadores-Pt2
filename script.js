@@ -64,10 +64,13 @@ function calculateOperations() {
     //Aqui inicia el codigo para las operaciones del ejercicio 1
 
     //Declara las constantes necesarias para las operaciones de acuerdo a los outputs
-    const suma = num1 + num2;
-    const resta = num1 - num2;
-    const multiplicacion = num1 * num2;
-    const division = num1 / num2;
+    const suma = 0;
+    const resta = 0;
+    const multiplicacion = 0;
+    const division = 0;
+
+    //Aqui hace las operaciones
+    
 
     //Aqui termina el codigo para las operaciones del ejercicio 1
     
