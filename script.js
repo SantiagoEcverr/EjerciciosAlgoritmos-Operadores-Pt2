@@ -63,11 +63,13 @@ function calculateOperations() {
 
     //Aqui inicia el codigo para las operaciones del ejercicio 1
 
+    
+
     //Declara las constantes necesarias para las operaciones de acuerdo a los outputs
-    const suma = 0;
-    const resta = 0;
-    const multiplicacion = 0;
-    const division = 0;
+    const suma = num1 + num2;
+    const resta = num1 - num2;
+    const multiplicacion = num1 * num2;
+    const division = num1 / num2;
 
     //Aqui hace las operaciones
     
@@ -254,16 +256,16 @@ function calculateCommissions() {
     // Declara las constantes necesarias para el ejercicio 3 de acuerdo a los outputs
     // Calcular comisiones usando solo operadores aritméticos (10% = 0.1)
     //Usa estas constantes para calcular las comisiones de acuerdo a los outputs
-    const comision1=0; //Esta es la constante inicializda para la primera comision
-    const comision2=0; //Esta es la constante inicializada para la segunda comision
-    const comision3=0; //Esta es la constante inicializada para la tercera comision
+    const comision1=venta1+(venta1*10)/100; //Esta es la constante inicializda para la primera comision
+    const comision2=venta2+(venta2*10)/100; //Esta es la constante inicializada para la segunda comision
+    const comision3=venta3+(venta3*10)/100; //Esta es la constante inicializada para la tercera comision
 
     //Realiza las operaciones necesarias para calcular las comisiones de acuerdo a los outputs
     
     // Calcular totales usando solo operadores aritméticos
-    const totalVentas = 0; //Esta es la constante inicializada para el total de ventas
-    const totalComisiones = 0; //Esta es la constante inicializada para el total de comisiones
-    const totalRecibir = 0; //Esta es la constante inicializada para el total a recibir
+    const totalVentas = venta1 + venta2 + venta3; //Esta es la constante inicializada para el total de ventas
+    const totalComisiones =totalVentas+(totalVentas*10)/100; //Esta es la constante inicializada para el total de comisiones
+    const totalRecibir = totalComisiones+sueldoBase; //Esta es la constante inicializada para el total a recibir
 
     //Realiza las operaciones necesarias para calcular las comisiones y los totales de acuerdo a los outputs
     
