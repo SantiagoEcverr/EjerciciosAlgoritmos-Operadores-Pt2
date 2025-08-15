@@ -160,6 +160,8 @@ function calculateVelocity() {
 
     //Aqui inicia el codigo para el ejercicio 2
 
+    const velocidad = distancia / tiempo;
+
     //Declara las constantes necesarias para el ejercicio 2 de acuerdo a los outputs
     
 
@@ -256,9 +258,9 @@ function calculateCommissions() {
     // Declara las constantes necesarias para el ejercicio 3 de acuerdo a los outputs
     // Calcular comisiones usando solo operadores aritméticos (10% = 0.1)
     //Usa estas constantes para calcular las comisiones de acuerdo a los outputs
-    const comision1=venta1+(venta1*10)/100; //Esta es la constante inicializda para la primera comision
-    const comision2=venta2+(venta2*10)/100; //Esta es la constante inicializada para la segunda comision
-    const comision3=venta3+(venta3*10)/100; //Esta es la constante inicializada para la tercera comision
+    const comision1=venta1+(venta1*10) / 100; //Esta es la constante inicializda para la primera comision
+    const comision2=venta2+(venta2*10) / 100; //Esta es la constante inicializada para la segunda comision
+    const comision3=venta3+(venta3*10) / 100; //Esta es la constante inicializada para la tercera comision
 
     //Realiza las operaciones necesarias para calcular las comisiones de acuerdo a los outputs
     
@@ -302,9 +304,9 @@ function calculateCommissions() {
 }
 
 function generateCommissionCode(sueldoBase, venta1, venta2, venta3) {
-    const comision1 = venta1 * 0.1;
-    const comision2 = venta2 * 0.1;
-    const comision3 = venta3 * 0.1;
+    const comision1 = venta1 * 0.10;
+    const comision2 = venta2 * 0.10;
+    const comision3 = venta3 * 0.10;
     const totalVentas = venta1 + venta2 + venta3;
     const totalComisiones = comision1 + comision2 + comision3;
     const totalRecibir = sueldoBase + totalComisiones;
